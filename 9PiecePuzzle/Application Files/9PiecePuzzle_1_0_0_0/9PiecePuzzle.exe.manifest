@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="9PiecePuzzle.exe" version="1.0.0.0" publicKeyToken="37a452c6fd9f6ab4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="9PiecePuzzle" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="9PiecePuzzle.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="9PiecePuzzle.exe" size="101368">
+      <assemblyIdentity name="9PiecePuzzle" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xwADxGUWNVfwj02LszjFHI7JSjK/ZcJWEq2nLjsV4k4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="9PiecePuzzle.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=XAVIERHS\moriatryt19" issuerKeyHash="9ac51ee3a08995c15449e7a41fb10f2783285e36" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>SlPqL26mx9pyk1KlRt7ePTpggzu7sMFBJRlqdgGmBRg=</DigestValue></Reference></SignedInfo><SignatureValue>sfDNmuAKJGK8mcEZHryAh3IOJHKAKBQMXusVcMHvII3bEJ2THJbt2U3HMAn/iLnfthefrWF6ZR82qf4ti+tvNUoqCqdubOyT9mW6HIBXExzO8E5Mm/Vso5fwtFUj1MPBCbfEqelK9JaAUKS2eOxAiLKbFX1W8N3ZoQqQVzaNyjk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zI99EA0T5Kq0YcV8gAkSyBGpKqYSkO+ZOZq6JjCvqoSbGuGGhzC6pim2DSIp1BB93SV/qXjMN1FRg1iQC7+dPbpQvZdXDHkqmNlGcfY/kQXl0NJkGozgapZyyvkOaW2VPanUe1KScqgx0kuc4eqeF5MzfG55QsP770rqjrlAfIM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="1805a601766a192541c1b0bb3b83603a3ddede46a5529372dac7a66e2fea534a" Description="" Url=""><as:assemblyIdentity name="9PiecePuzzle.exe" version="1.0.0.0" publicKeyToken="37a452c6fd9f6ab4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=XAVIERHS\moriatryt19</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>S8j2cBZiZEcJFBLwJNGdO2wuz+KagGE9vgXxGhx3muQ=</DigestValue></Reference></SignedInfo><SignatureValue>qZvuT9ZWdc0pOlkW082YTihp7hRpBKzgrI/U3P8UJizEEYuky1hoqOsSztlltkPCYS2/KkYkEYDJGG3MZWDpnOOSwBWHSY6pSxe8HRjyymrVinynG9c4UenIcBZnzljTdJqeHwxTfvGYrvr/j5/jP8/Ki/x+4gA/GMCqs9jFXH8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zI99EA0T5Kq0YcV8gAkSyBGpKqYSkO+ZOZq6JjCvqoSbGuGGhzC6pim2DSIp1BB93SV/qXjMN1FRg1iQC7+dPbpQvZdXDHkqmNlGcfY/kQXl0NJkGozgapZyyvkOaW2VPanUe1KScqgx0kuc4eqeF5MzfG55QsP770rqjrlAfIM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQdNSisJtyuZxPPhTxLQcG8DANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigAWABBAFYASQBFAFIASABTAFwAbQBvAHIAaQBhAHQAcgB5AHQAMQA5MB4XDTE5MDExMTE1NDg0NloXDTIwMDExMTIxNDg0NlowMzExMC8GA1UEAx4oAFgAQQBWAEkARQBSAEgAUwBcAG0AbwByAGkAYQB0AHIAeQB0ADEAOTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzI99EA0T5Kq0YcV8gAkSyBGpKqYSkO+ZOZq6JjCvqoSbGuGGhzC6pim2DSIp1BB93SV/qXjMN1FRg1iQC7+dPbpQvZdXDHkqmNlGcfY/kQXl0NJkGozgapZyyvkOaW2VPanUe1KScqgx0kuc4eqeF5MzfG55QsP770rqjrlAfIMCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBDOU8FbbdehZq0MszHh9U1RiHX8Wc2uCdN6ByN0LiV2bAFcETjNSaPiyztZ7G3igqZGhr8SyJFSKOiKbIP6kT8pLsRKYc6JhM+B1p/2Nnji+3+34TzroFYfVCA/HDWxxrSjjDrER3oeDt/HQAqkMPY6VoSh3Cdy568lRrU9QCzFA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
